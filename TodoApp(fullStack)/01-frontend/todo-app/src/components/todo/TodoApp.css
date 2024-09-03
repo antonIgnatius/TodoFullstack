@@ -1,0 +1,176 @@
+/* Light Color (60%) */
+body {
+    background-color: #f5f5dc; /* Pale Beige */
+    color: #333333; /* Charcoal Gray for readability */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Medium Color (30%) */
+header, footer, .sidebar {
+    background-color: #7baed4; /* Dusty Blue */
+    color: #f5f5dc; /* Pale Beige for text contrast */
+}
+
+/* Dark Color (10%) */
+.button-primary, header h1, footer p {
+    color: #f5f5dc; /* Pale Beige */
+    background-color: #333333; /* Charcoal Gray */
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #333333; /* Charcoal Gray */
+    transition: color 0.3s ease;
+    margin-left: 80px;
+}
+
+.nav-link:hover {
+    color: #7baed4; /* Dusty Blue */
+}
+
+/* Buttons */
+.button-primary {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333333; /* Charcoal Gray */
+    color: #f5f5dc; /* Pale Beige */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #7baed4; /* Dusty Blue */
+    color: #f5f5dc; /* Pale Beige */
+}
+
+/* Table in ListTodoComponent */
+.table {
+    background-color: #f5f5dc; /* Pale Beige */
+    border: 1px solid #7baed4; /* Dusty Blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #7baed4; /* Dusty Blue row borders */
+    transition: background-color 0.3s ease;
+}
+
+.table th {
+    background-color: #7baed4; /* Dusty Blue */
+    color: #f5f5dc; /* Pale Beige */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f5f5dc; /* Pale Beige for even rows */
+}
+
+.table tr:hover {
+    background-color: #333333; /* Charcoal Gray for hover effect */
+    color: #f5f5dc; /* Pale Beige for text */
+}
+
+/* LoginComponent */
+.Login {
+    max-width: 300px;
+    margin: 50px auto;
+    margin-left: 467px;
+    padding: 20px;
+    background-color: #f5f5dc; /* Pale Beige */
+    border: 2px solid #7baed4; /* Dusty Blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.Login h1 {
+    color: #333333; /* Charcoal Gray */
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.LoginForm label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333333; /* Charcoal Gray */
+    font-weight: bold;
+}
+
+.LoginForm input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #7baed4; /* Dusty Blue */
+    border-radius: 4px;
+    background-color: #f5f5dc; /* Pale Beige */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.LoginForm input:focus {
+    border-color: #333333; /* Charcoal Gray */
+    background-color: #f5f5dc; /* Pale Beige */
+    outline: none;
+}
+
+.LoginForm button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333333; /* Charcoal Gray */
+    color: #f5f5dc; /* Pale Beige */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.LoginForm button:hover {
+    background-color: #7baed4; /* Dusty Blue */
+    color: #f5f5dc; /* Pale Beige */
+}
+
+/* Error Message */
+.errorMessage {
+    color: #333333; /* Charcoal Gray */
+    padding: 10px;
+    background-color: #f8d7da; /* Light red for error */
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb; /* Light red border */
+}
+
+/* Footer */
+footer {
+    background-color: #7baed4; /* Dusty Blue */
+    color: #f5f5dc; /* Pale Beige */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Additional Styling */
+a {
+    color: #7baed4; /* Dusty Blue */
+}
+.logo {
+    width: 65px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the logo */
+    display: block;
+}
+
+header {
+    text-align: center; /* Center-align the content in the header */
+    padding: 20px;
+}
+/* 3D Button Styles */
+/* 3D Login Button */
+
